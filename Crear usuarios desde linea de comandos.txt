@@ -1,0 +1,27 @@
+Para borrar un usuario: drop user 'nombre'.
+
+Por ejemplo, si queremos borrar el usuario BD:
+
+drop user 'bd';
+
+Para crear un usuario: CREATE USER 'nombre'@'host' IDENTIFIED BY 'contraseña';
+
+En el caso de los ejemplos que estamos usando, el usuario es "bd", con contraseña "bdupm" y se conecta a "localhost", por tanto:
+
+CREATE USER 'bd'@'localhost' IDENTIFIED BY 'bdupm';
+
+Le podemos dar privilegios a un esquema concreto con: GRANT ALL PRIVILEGES ON nombre_esquema.* to 'usuario'@'host';
+
+En nuestro caso, para darle acceso a sakila:
+
+GRANT ALL PRIVILEGES on sakila.* to 'bd'@'localhost';
+
+---
+
+En cualquier caso, en la VM, las credenciales son con el usuario "root" y sin contraseña (contraseña vacía "").
+
+
+---
+
+CREATE USER 'bd'@'localhost' IDENTIFIED BY 'bdupm';
+GRANT ALL PRIVILEGES on practica_bbdd.* to 'bd'@'localhost';
