@@ -1,7 +1,6 @@
 # Proyecto Gestion de BD con MySQL y Java 
 
 Autor: Miguel Ángel Sastre Gálvez
-Nº Matrícula: y160374
 
 El archivo diagnostico.java contiene todo el código del proyecto 1.
 Como opcional se decía que se podía entregar un archivo pdf, en vez de eso, 
