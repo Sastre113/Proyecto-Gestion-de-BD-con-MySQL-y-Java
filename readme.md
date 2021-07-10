@@ -8,6 +8,8 @@ se ha agregado un comentario al inicio del archivo diagnostico.java.
 Además, la gran mayoría de métodos están comentados.
 
 # Documentation
+[API Javadoc](https://sastre113.github.io/Proyecto-Gestion-de-BD-con-MySQL-y-Java/Diagnostico.html)
+
 
 ## `static final String DRIVER = "com.mysql.jdbc.Driver"`
 
